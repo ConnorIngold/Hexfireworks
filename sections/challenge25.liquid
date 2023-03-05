@@ -1,0 +1,168 @@
+<style>
+  #age-confirmation-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 10;
+  }
+  
+  .popup-content {
+    background-color: #fff;
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+  }
+
+  .popup-content h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .popup-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .confirm-btn,
+  .cancel-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .cancel-btn {
+    background-color: #ccc;
+    color: #333;
+  }
+
+  .red{
+    color: #ff0000;
+  }
+</style>
+
+{% assign settings = section.settings %}
+
+<div id="age-confirmation-popup">
+  <div class="popup-content">
+    <h2>{{ settings.popup_title }}</h2>
+    <p>{{ settings.popup_message }} using the checkout confirms that you are over 18 years of age and you agree to our <a href="/policies/terms-of-service">terms of service.</a></p>
+    <div class="buttons">
+      <button class="confirm-btn">{{ settings.yes_button_text }}</button>
+      <a href="{{ settings.no_button_link }}" class="cancel-btn">{{ settings.no_button_text }}</a>
+    </div>
+  </div>
+</div>
+
+<script>
+// Set a cookie with the specified name and value, and optionally set an expiration date
+const setCookie = (name, value, days) => {
+  let expires = "";
+  if (days) {
+    let date = new Date();
+    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    expires = "; expires=" + date.toUTCString();
+  }
+  document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+};
+
+// Get the value of the specified cookie
+const getCookie = (name) => {
+  let nameEQ = name + "=";
+  let ca = document.cookie.split(';');
+  for(let i=0;i < ca.length;i++) {
+    let c = ca[i];
+    while (c.charAt(0)==' ') c = c.substring(1,c.length);
+    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+  }
+  return null;
+};
+
+// Show the age confirmation popup if the ageConfirmation cookie does not exist
+document.addEventListener('DOMContentLoaded', () => {
+  let ageConfirmationPopup = document.getElementById('age-confirmation-popup');
+  let ageConfirmationCookie = getCookie('ageConfirmation');
+  if (!ageConfirmationCookie) {
+    ageConfirmationPopup.style.display = 'block';
+  }
+});
+
+// Hide the age confirmation popup and set the ageConfirmation cookie when the "Yes, I am" button is clicked
+let confirmBtn = document.querySelector('.confirm-btn');
+confirmBtn.addEventListener('click', () => {
+  let ageConfirmationPopup = document.getElementById('age-confirmation-popup');
+  ageConfirmationPopup.style.display = 'none';
+  setCookie('ageConfirmation', 'true', 7); // Set a cookie for 7 days
+});
+
+// Redirect to Google.com when the "No, I'm not" button is clicked
+let cancelBtn = document.querySelector('.cancel-btn');
+cancelBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  window.location.href = cancelBtn.href;
+});
+
+</script>
+
+
+Shopify section schema for the above code
+
+{% schema %}
+  {
+    "name": "Age Confirmation Popup",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Age Confirmation Popup"
+      },
+      {
+        "type": "text",
+        "id": "popup_title",
+        "label": "Popup Title",
+        "default": "Are you over the age of 25?"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "popup_message",
+        "label": "Popup Message",
+        "default": "Challenge 25 - it is illegal to sell fireworks to people under the age of 18. using the checkout confirms that you are over 18 years of age and you agree to our terms of service."
+      },
+      {
+        "type": "text",
+        "id": "yes_button_text",
+        "label": "Yes Button Text",
+        "default": "Yes, I am"
+      },
+      {
+        "type": "text",
+        "id": "no_button_text",
+        "label": "No Button Text",
+        "default": "No, I'm not"
+      },
+      {
+        "type": "text",
+        "id": "no_button_link",
+        "label": "No Button Link",
+        "default": "https://www.google.com/"
+      }
+    ]
+  }
+{% endschema %}

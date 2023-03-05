@@ -17,7 +17,7 @@
     "heading_scale": 100,
     "type_body_font": "roboto_n4",
     "body_scale": 100,
-    "page_width": 1200,
+    "page_width": 1600,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
@@ -139,11 +139,47 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "challenge25": {
+        "type": "challenge25",
+        "settings": {
+          "popup_title": "Are you over the age of 25?",
+          "popup_message": "<strong>Challenge 25<\/strong> - it is <strong>illegal <\/strong>to sell fireworks to people under the age of 18. Using the checkout confirms that you are over 18 years of age and you agree to our <a href=\"\/policies\/terms-of-service\" target=\"_blank\" title=\"\/policies\/terms-of-service\">terms of service<\/a>.",
+          "yes_button_text": "Yes, I am",
+          "no_button_text": "No, I'm not",
+          "no_button_link": "https:\/\/www.google.com\/"
+        }
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": [],
+    "blocks": {
+      "1575957009345749421": {
+        "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/side-drawer\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "disabled": false,
+        "settings": {
+          "show_avatar": true,
+          "position": "left",
+          "text": "",
+          "title": "",
+          "link": "",
+          "link_text": "",
+          "background_color": "",
+          "style_color_button_text": "",
+          "style_color_star": "",
+          "style_color_text": "",
+          "style_color_link": "",
+          "review_ids": "",
+          "product_ids": "",
+          "category": "",
+          "product_brand": "",
+          "tags": "",
+          "min_rating": "none",
+          "fill_empty": false,
+          "random": false,
+          "with_photos": false
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
