@@ -130,8 +130,8 @@
           "settings": {
             "heading": "Click and Collect:",
             "icon": "none",
-            "row_content": "<p>Orders can be placed online and collected from our facility at High Barns Farm.<\/p><p><br\/><strong>Fireworks<\/strong><\/p><p><span style=\"text-decoration:underline\"><em><strong>PLEASE NOTE: Firework orders must be placed independently from #HEXLife and Non-Hazardous products.<\/strong><\/em><\/span><\/p><p>1. Collect order from HEX HQ - FREE - MK44 3ET.<\/p><p>2. Local delivery by Team HEX - FREE - for delivery within a 17 mile radius of MK44 3ET - <em>minimum order value £30.<\/em><\/p><p>3. Nationwide delivery by HazMat carrier - £30 - <em>minimum order value £150.<\/em><\/p><p>4. Nationwide firework delivery by HazMat carrier - FREE - <em>for orders over £300.<\/em><\/p>",
-            "page": ""
+            "row_content": "<p>Orders can be placed online and collected from our facility at High Barns Farm.<\/p><p><\/p><p><\/p>",
+            "page": "click-and-collect"
           }
         }
       },
