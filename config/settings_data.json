@@ -144,7 +144,7 @@
         "type": "challenge25",
         "settings": {
           "popup_title": "Are you over the age of 25?",
-          "popup_message": "<strong>Challenge 25<\/strong> - it is <strong>illegal <\/strong>to sell fireworks to people under the age of 18.",
+          "popup_message": "",
           "yes_button_text": "Yes, I am",
           "no_button_text": "No, I'm not",
           "no_button_link": "https:\/\/www.google.com\/"
