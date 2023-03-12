@@ -49,6 +49,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured Product Collection",
         "heading_size": "h2",
@@ -198,44 +199,46 @@
         "padding_bottom": 36
       }
     },
-    "e2b0533d-db3c-45ef-ad4c-672e4e9d041a": {
-      "type": "collection-list",
+    "a4464ace-8395-4d8a-910d-540cd8ef97c3": {
+      "type": "image-with-text",
       "blocks": {
-        "template--16171362451655__e2b0533d-db3c-45ef-ad4c-672e4e9d041a-167864949588e18e4e-0": {
-          "type": "featured_collection",
+        "template--16171362451655__a4464ace-8395-4d8a-910d-540cd8ef97c3-1678651364195391da-0": {
+          "type": "heading",
           "settings": {
-            "collection": "hextech-firer"
+            "heading": "HEXTech Firer",
+            "heading_size": "h2"
           }
         },
-        "template--16171362451655__e2b0533d-db3c-45ef-ad4c-672e4e9d041a-167864949588e18e4e-1": {
-          "type": "featured_collection",
-          "disabled": true,
+        "template--16171362451655__a4464ace-8395-4d8a-910d-540cd8ef97c3-1678651364195391da-1": {
+          "type": "text",
           "settings": {
-            "collection": ""
+            "text": "<p>Let us come and fire your fireworks for you. <\/p><ul><li>Fully qualified technician <\/li><li>Full Risk Assessment<\/li><li>Insurance.<\/li><li>Help selecting fireworks<\/li><li>You celebrate, stress free.<\/li><\/ul>",
+            "text_style": "body"
           }
         },
-        "template--16171362451655__e2b0533d-db3c-45ef-ad4c-672e4e9d041a-167864949588e18e4e-2": {
-          "type": "featured_collection",
-          "disabled": true,
+        "template--16171362451655__a4464ace-8395-4d8a-910d-540cd8ef97c3-1678651364195391da-2": {
+          "type": "button",
           "settings": {
-            "collection": ""
+            "button_label": "Find out more",
+            "button_link": "shopify:\/\/products\/professional-firework-display-pyrotechnician-electronic-firing"
           }
         }
       },
       "block_order": [
-        "template--16171362451655__e2b0533d-db3c-45ef-ad4c-672e4e9d041a-167864949588e18e4e-0",
-        "template--16171362451655__e2b0533d-db3c-45ef-ad4c-672e4e9d041a-167864949588e18e4e-1",
-        "template--16171362451655__e2b0533d-db3c-45ef-ad4c-672e4e9d041a-167864949588e18e4e-2"
+        "template--16171362451655__a4464ace-8395-4d8a-910d-540cd8ef97c3-1678651364195391da-0",
+        "template--16171362451655__a4464ace-8395-4d8a-910d-540cd8ef97c3-1678651364195391da-1",
+        "template--16171362451655__a4464ace-8395-4d8a-910d-540cd8ef97c3-1678651364195391da-2"
       ],
       "settings": {
-        "title": "HEXTech Services",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 5,
+        "image": "shopify:\/\/shop_images\/wedding_photo2.webp",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -387,7 +390,7 @@
     "image_banner",
     "featured_collection",
     "e154db25-fb5e-4741-9a01-13aaae6a49ad",
-    "e2b0533d-db3c-45ef-ad4c-672e4e9d041a",
+    "a4464ace-8395-4d8a-910d-540cd8ef97c3",
     "fd637a7e-474f-49ab-a96b-a4eb201f4fca",
     "e3fbeb3c-1903-497b-892c-6ad670ad3447"
   ]
