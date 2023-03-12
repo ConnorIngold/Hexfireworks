@@ -95,7 +95,7 @@
         "template--16171362451655__9620b9ef-df5e-44f1-86d8-1ac41ea9d03e-1678653351f91b125a-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Selection_Packs_Slideshow_Images_Shrunk_b1abc7c8-3066-493b-8f50-20cea28a931b.png",
+            "image": "shopify:\/\/shop_images\/Selection_Packs_Slideshow_Images_600pxH.jpg",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
@@ -113,7 +113,25 @@
         "template--16171362451655__9620b9ef-df5e-44f1-86d8-1ac41ea9d03e-1678653351f91b125a-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Gender_Reveal_Fireworks_and_Confetti_4e187ddc-b93c-4edc-bd2b-695a8072d8d3.png",
+            "image": "shopify:\/\/shop_images\/Gender_Reveal_Fireworks_and_Confetti_600pxH.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "2dbccbdd-bfb9-46c3-8436-9d81f3bef5bc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rockets_Slideshow_Image_Shrunk_600pxH.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -131,13 +149,14 @@
       },
       "block_order": [
         "template--16171362451655__9620b9ef-df5e-44f1-86d8-1ac41ea9d03e-1678653351f91b125a-0",
-        "template--16171362451655__9620b9ef-df5e-44f1-86d8-1ac41ea9d03e-1678653351f91b125a-1"
+        "template--16171362451655__9620b9ef-df5e-44f1-86d8-1ac41ea9d03e-1678653351f91b125a-1",
+        "2dbccbdd-bfb9-46c3-8436-9d81f3bef5bc"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
+        "slider_visual": "dots",
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
