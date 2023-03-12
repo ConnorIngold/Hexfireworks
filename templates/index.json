@@ -76,7 +76,6 @@
     },
     "e154db25-fb5e-4741-9a01-13aaae6a49ad": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
         "template--16171362451655__e154db25-fb5e-4741-9a01-13aaae6a49ad-16786220979e0b47d6-0": {
           "type": "featured_collection",
@@ -101,19 +100,138 @@
           "settings": {
             "collection": "single-ignition-barrages"
           }
+        },
+        "2e386750-97bb-4707-bc9d-cf79c8924db0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "barrage-packs"
+          }
+        },
+        "65e8b388-d911-4d2e-98ab-cf9ef16b9436": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rockets"
+          }
+        },
+        "9b3a332d-4601-40a5-8171-964928bca44e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hexpack-display-builder-kits"
+          }
+        },
+        "c279d7ef-caed-4b85-835d-e110144d43aa": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "selection-boxes"
+          }
+        },
+        "083f0210-6b95-413c-911b-57a97f895b6b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "roman-candle-batteries"
+          }
+        },
+        "2bcd7703-2172-4a34-9d9c-67df1ba20e5b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fountains"
+          }
+        },
+        "a4a8c8ea-4d28-4115-a349-b0abfa0b3080": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sparklers"
+          }
+        },
+        "3746c7cc-ca7f-40e5-b989-598085f618ef": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gender-reveal"
+          }
+        },
+        "b8c58f56-a545-4b1e-93ef-cc60a70805b5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "smokes-and-flares"
+          }
+        },
+        "130a6cc3-75a8-4212-9f59-69ef64ecc7cc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "confetti-cannons"
+          }
+        },
+        "2b06e25b-0318-4aff-ad40-37095ac9c905": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hextech-firer"
+          }
         }
       },
       "block_order": [
         "template--16171362451655__e154db25-fb5e-4741-9a01-13aaae6a49ad-16786220979e0b47d6-0",
         "template--16171362451655__e154db25-fb5e-4741-9a01-13aaae6a49ad-16786220979e0b47d6-1",
         "template--16171362451655__e154db25-fb5e-4741-9a01-13aaae6a49ad-16786220979e0b47d6-2",
-        "9b38252d-8276-48fc-9654-594b339a2f1a"
+        "9b38252d-8276-48fc-9654-594b339a2f1a",
+        "2e386750-97bb-4707-bc9d-cf79c8924db0",
+        "65e8b388-d911-4d2e-98ab-cf9ef16b9436",
+        "9b3a332d-4601-40a5-8171-964928bca44e",
+        "c279d7ef-caed-4b85-835d-e110144d43aa",
+        "083f0210-6b95-413c-911b-57a97f895b6b",
+        "2bcd7703-2172-4a34-9d9c-67df1ba20e5b",
+        "a4a8c8ea-4d28-4115-a349-b0abfa0b3080",
+        "3746c7cc-ca7f-40e5-b989-598085f618ef",
+        "b8c58f56-a545-4b1e-93ef-cc60a70805b5",
+        "130a6cc3-75a8-4212-9f59-69ef64ecc7cc",
+        "2b06e25b-0318-4aff-ad40-37095ac9c905"
       ],
       "settings": {
         "title": "Collections",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e2b0533d-db3c-45ef-ad4c-672e4e9d041a": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16171362451655__e2b0533d-db3c-45ef-ad4c-672e4e9d041a-167864949588e18e4e-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hextech-firer"
+          }
+        },
+        "template--16171362451655__e2b0533d-db3c-45ef-ad4c-672e4e9d041a-167864949588e18e4e-1": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--16171362451655__e2b0533d-db3c-45ef-ad4c-672e4e9d041a-167864949588e18e4e-2": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16171362451655__e2b0533d-db3c-45ef-ad4c-672e4e9d041a-167864949588e18e4e-0",
+        "template--16171362451655__e2b0533d-db3c-45ef-ad4c-672e4e9d041a-167864949588e18e4e-1",
+        "template--16171362451655__e2b0533d-db3c-45ef-ad4c-672e4e9d041a-167864949588e18e4e-2"
+      ],
+      "settings": {
+        "title": "HEXtech Services",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 2,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "1",
@@ -222,6 +340,7 @@
     "image_banner",
     "featured_collection",
     "e154db25-fb5e-4741-9a01-13aaae6a49ad",
+    "e2b0533d-db3c-45ef-ad4c-672e4e9d041a",
     "e3fbeb3c-1903-497b-892c-6ad670ad3447"
   ]
 }
