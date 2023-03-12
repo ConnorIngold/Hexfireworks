@@ -144,14 +144,16 @@
         "type": "challenge25",
         "settings": {
           "popup_title": "Are you over the age of 25?",
-          "popup_message": "<strong>Challenge 25<\/strong> - it is <strong>illegal <\/strong>to sell fireworks to people under the age of 18. Using the checkout confirms that you are over 18 years of age and you agree to our <a href=\"\/policies\/terms-of-service\" target=\"_blank\" title=\"\/policies\/terms-of-service\">terms of service<\/a>.",
+          "popup_message": "<strong>Challenge 25<\/strong> - it is <strong>illegal <\/strong>to sell fireworks to people under the age of 18.",
           "yes_button_text": "Yes, I am",
           "no_button_text": "No, I'm not",
           "no_button_link": "https:\/\/www.google.com\/"
         }
       }
     },
-    "content_for_index": [],
+    "content_for_index": [
+
+    ],
     "blocks": {
       "1575957009345749421": {
         "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/side-drawer\/a103faaf-2125-4b0e-89fa-de5149736723",
