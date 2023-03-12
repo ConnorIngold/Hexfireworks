@@ -14,6 +14,7 @@
         },
         "footer-1": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "Info",
             "menu": "footer"
@@ -23,7 +24,7 @@
           "type": "text",
           "settings": {
             "heading": "Our mission",
-            "subtext": "<p>Customer service is at the heart of all we do at HEX Fireworks. Our HEXperts select the best fireworks and support you in making your choices with in depth product knowledge. Our aim is to deal with our customers as we would like to be dealt with. We love going that HEXtra mile, sharing our passion for fireworks.<\/p>"
+            "subtext": "<p>Customer service is at the heart of all we do at HEX Fireworks. Our HEXperts select the best fireworks and support you in making your choices with in depth product knowledge. Our aim is to deal with our customers as we would like to be dealt with. We love going that HEXtra mile, sharing our passion for fireworks with you.<\/p>"
           }
         }
       },
@@ -38,7 +39,7 @@
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": false,
         "show_social": true,
-        "enable_country_selector": true,
+        "enable_country_selector": false,
         "enable_language_selector": true,
         "payment_enable": true,
         "show_policy": false,
