@@ -134,6 +134,15 @@
             "row_content": "<p>Orders can be placed online and collected from our facility at High Barns Farm.<\/p><p><\/p><p><\/p>",
             "page": "click-and-collect-service"
           }
+        },
+        "17938b86-81e5-4d65-9a66-2add67d2c196": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Delivery Information",
+            "icon": "none",
+            "row_content": "",
+            "page": "delivery-information"
+          }
         }
       },
       "block_order": [
@@ -142,7 +151,8 @@
         "template--16163877945543__e3fbeb3c-1903-497b-892c-6ad670ad3447-16766751578a4a39bf-2",
         "template--16163877945543__e3fbeb3c-1903-497b-892c-6ad670ad3447-16766751578a4a39bf-3",
         "45ef9a7c-d81d-4222-bc83-a1cb9f20792a",
-        "3ccf4825-af42-4d99-831c-5372801d34c3"
+        "3ccf4825-af42-4d99-831c-5372801d34c3",
+        "17938b86-81e5-4d65-9a66-2add67d2c196"
       ],
       "settings": {
         "caption": "",
