@@ -47,6 +47,48 @@
         "show_text_below": false
       }
     },
+    "db142881-2c12-463d-899c-6b69dcaa87f3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16171362451655__db142881-2c12-463d-899c-6b69dcaa87f3-1678652031a09ee0ca-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Are you like us ...just a bit FIREWORK CRAZY?!<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--16171362451655__db142881-2c12-463d-899c-6b69dcaa87f3-1678652031a09ee0ca-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you love fireworks too, then we are the <strong>online fireworks shop<\/strong> for you. <\/p><p>We don't operate a physical shop but we can handle cash transactions if you prefer.<\/p>"
+          }
+        },
+        "template--16171362451655__db142881-2c12-463d-899c-6b69dcaa87f3-1678652031a09ee0ca-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16171362451655__db142881-2c12-463d-899c-6b69dcaa87f3-1678652031a09ee0ca-0",
+        "template--16171362451655__db142881-2c12-463d-899c-6b69dcaa87f3-1678652031a09ee0ca-1",
+        "template--16171362451655__db142881-2c12-463d-899c-6b69dcaa87f3-1678652031a09ee0ca-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "disabled": true,
@@ -388,6 +430,7 @@
   },
   "order": [
     "image_banner",
+    "db142881-2c12-463d-899c-6b69dcaa87f3",
     "featured_collection",
     "e154db25-fb5e-4741-9a01-13aaae6a49ad",
     "a4464ace-8395-4d8a-910d-540cd8ef97c3",
