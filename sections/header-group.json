@@ -1,1 +1,60 @@
-{"name":"t:sections.header.name","type":"header","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"announcement-bar-0":{"type":"announcement","settings":{"text":"Welcome to our store","text_alignment":"center","color_scheme":"background-1","link":""}}},"block_order":["announcement-bar-0"],"settings":{}},"header":{"type":"header","settings":{"color_scheme":"background-1","logo_position":"middle-left","menu":"main-menu","menu_type_desktop":"dropdown","sticky_header_type":"on-scroll-up","show_line_separator":true,"mobile_logo_position":"center","margin_bottom":0,"padding_top":20,"padding_bottom":20}}},"order":["announcement-bar","header"]}
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "bg_color": "",
+            "text_color": "",
+            "text": "Welcome to our store",
+            "text2": "Welcome to our store",
+            "text_alignment": "center",
+            "link": ""
+          }
+        },
+        "b1b2c4a7-cda3-444c-9716-8d5778151e5e": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "bg_color": "",
+            "text_color": "",
+            "text": "Current Click and Collect Turnaround Time - 30 minutes or less",
+            "text2": "Free delivery for orders over £300",
+            "img": "shopify:\/\/shop_images\/Delivery_Van_only_08d0ac24-667d-4661-914b-d832e0182420.png",
+            "text_alignment": "center",
+            "link": "shopify:\/\/pages\/delivery-information"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0",
+        "b1b2c4a7-cda3-444c-9716-8d5778151e5e"
+      ],
+      "settings": {
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "color_scheme": "background-1",
+        "logo_position": "middle-left",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
