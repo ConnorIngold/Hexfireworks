@@ -8,8 +8,8 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "bg_color": "",
-            "text_color": "",
+            "bg_color": "#ff0000",
+            "text_color": "#ffffff",
             "text": "Current Click and Collect Turnaround Time - 30 minutes or less",
             "text2": "Free delivery for orders over £300",
             "img": "shopify:\/\/shop_images\/Delivery_Van_only_08d0ac24-667d-4661-914b-d832e0182420.png",
