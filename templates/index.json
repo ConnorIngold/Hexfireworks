@@ -129,7 +129,7 @@
         "3ccf4825-af42-4d99-831c-5372801d34c3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Click and Collect:",
+            "heading": "Click and Collect Information",
             "icon": "none",
             "row_content": "<p>Orders can be placed online and collected from our facility at High Barns Farm.<\/p><p><\/p><p><\/p>",
             "page": "click-and-collect-service"
