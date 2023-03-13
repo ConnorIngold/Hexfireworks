@@ -247,7 +247,7 @@
       }
     },
     "404": {
-      "title": "Page not found",
+      "title": "404 - Oops! This page failed to ignite.",
       "subtext": "404"
     }
   },
