@@ -555,32 +555,6 @@
         "padding_bottom": 36
       }
     },
-    "6ecf52fc-7b24-44a7-af73-ff92461ca0a4": {
-      "type": "collection-list",
-      "blocks": {
-        "template--16171362451655__6ecf52fc-7b24-44a7-af73-ff92461ca0a4-167872353163557323-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "hexpack-display-builder-kits"
-          }
-        }
-      },
-      "block_order": [
-        "template--16171362451655__6ecf52fc-7b24-44a7-af73-ff92461ca0a4-167872353163557323-0"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 1,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "e7719d23-0625-4cc9-9a4f-828a74d4b391": {
       "type": "collection-list",
       "blocks": {
@@ -605,7 +579,7 @@
         "9b1510e2-c542-4c23-9b3c-a5aef5747005": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sparklers"
+            "collection": "ignite-firing-systems"
           }
         }
       },
@@ -642,30 +616,23 @@
           "settings": {
             "collection": "rockets"
           }
-        },
-        "6118515a-6e12-4748-b5ee-124a67891268": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "roman-candle-batteries"
-          }
         }
       },
       "block_order": [
         "template--16171362451655__c0dd4575-8150-4dd6-9d1d-0afd12c20aaa-167872353163557323-0",
-        "template--16171362451655__c0dd4575-8150-4dd6-9d1d-0afd12c20aaa-167872353163557323-1",
-        "6118515a-6e12-4748-b5ee-124a67891268"
+        "template--16171362451655__c0dd4575-8150-4dd6-9d1d-0afd12c20aaa-167872353163557323-1"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "86165c61-91e8-46f0-9f3e-4ffdf004d29c": {
@@ -677,6 +644,12 @@
             "collection": "selection-boxes"
           }
         },
+        "cd8ecc88-83fc-4186-adc4-b0c88af0639d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hexpack-display-builder-kits"
+          }
+        },
         "template--16171362451655__86165c61-91e8-46f0-9f3e-4ffdf004d29c-167872353163557323-2": {
           "type": "featured_collection",
           "settings": {
@@ -686,19 +659,20 @@
       },
       "block_order": [
         "template--16171362451655__86165c61-91e8-46f0-9f3e-4ffdf004d29c-167872353163557323-1",
+        "cd8ecc88-83fc-4186-adc4-b0c88af0639d",
         "template--16171362451655__86165c61-91e8-46f0-9f3e-4ffdf004d29c-167872353163557323-2"
       ],
       "settings": {
         "title": "",
         "heading_size": "h2",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "image_ratio": "square",
+        "columns_desktop": 3,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
-        "padding_bottom": 4
+        "padding_bottom": 0
       }
     },
     "62b94d8b-2f7a-454f-b2ee-f0535963d776": {
@@ -707,29 +681,76 @@
         "template--16171362451655__62b94d8b-2f7a-454f-b2ee-f0535963d776-167872353163557323-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "roman-candle-batteries"
           }
         },
         "template--16171362451655__62b94d8b-2f7a-454f-b2ee-f0535963d776-167872353163557323-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "fountains"
           }
         },
         "template--16171362451655__62b94d8b-2f7a-454f-b2ee-f0535963d776-167872353163557323-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "gender-reveal"
+          }
+        },
+        "b2ea2f73-ce65-4e62-b919-682881b6b0f6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "safety-and-accessories"
           }
         }
       },
       "block_order": [
         "template--16171362451655__62b94d8b-2f7a-454f-b2ee-f0535963d776-167872353163557323-0",
         "template--16171362451655__62b94d8b-2f7a-454f-b2ee-f0535963d776-167872353163557323-1",
-        "template--16171362451655__62b94d8b-2f7a-454f-b2ee-f0535963d776-167872353163557323-2"
+        "template--16171362451655__62b94d8b-2f7a-454f-b2ee-f0535963d776-167872353163557323-2",
+        "b2ea2f73-ce65-4e62-b919-682881b6b0f6"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ec1cfa3c-e4fa-488f-b509-70470f35e9b3": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16171362451655__ec1cfa3c-e4fa-488f-b509-70470f35e9b3-167872353163557323-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "confetti-cannons"
+          }
+        },
+        "template--16171362451655__ec1cfa3c-e4fa-488f-b509-70470f35e9b3-167872353163557323-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "smokes-and-flares"
+          }
+        },
+        "template--16171362451655__ec1cfa3c-e4fa-488f-b509-70470f35e9b3-167872353163557323-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sparklers"
+          }
+        }
+      },
+      "block_order": [
+        "template--16171362451655__ec1cfa3c-e4fa-488f-b509-70470f35e9b3-167872353163557323-0",
+        "template--16171362451655__ec1cfa3c-e4fa-488f-b509-70470f35e9b3-167872353163557323-1",
+        "template--16171362451655__ec1cfa3c-e4fa-488f-b509-70470f35e9b3-167872353163557323-2"
+      ],
+      "settings": {
+        "title": "",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -737,7 +758,7 @@
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     }
@@ -753,10 +774,10 @@
     "a4464ace-8395-4d8a-910d-540cd8ef97c3",
     "fd637a7e-474f-49ab-a96b-a4eb201f4fca",
     "e3fbeb3c-1903-497b-892c-6ad670ad3447",
-    "6ecf52fc-7b24-44a7-af73-ff92461ca0a4",
     "e7719d23-0625-4cc9-9a4f-828a74d4b391",
     "c0dd4575-8150-4dd6-9d1d-0afd12c20aaa",
     "86165c61-91e8-46f0-9f3e-4ffdf004d29c",
-    "62b94d8b-2f7a-454f-b2ee-f0535963d776"
+    "62b94d8b-2f7a-454f-b2ee-f0535963d776",
+    "ec1cfa3c-e4fa-488f-b509-70470f35e9b3"
   ]
 }
