@@ -742,18 +742,25 @@
           "settings": {
             "collection": "sparklers"
           }
+        },
+        "244909d8-d626-40b4-b26d-6dab97043e84": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wax-torches"
+          }
         }
       },
       "block_order": [
         "template--16171362451655__ec1cfa3c-e4fa-488f-b509-70470f35e9b3-167872353163557323-0",
         "template--16171362451655__ec1cfa3c-e4fa-488f-b509-70470f35e9b3-167872353163557323-1",
-        "template--16171362451655__ec1cfa3c-e4fa-488f-b509-70470f35e9b3-167872353163557323-2"
+        "template--16171362451655__ec1cfa3c-e4fa-488f-b509-70470f35e9b3-167872353163557323-2",
+        "244909d8-d626-40b4-b26d-6dab97043e84"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "2",
