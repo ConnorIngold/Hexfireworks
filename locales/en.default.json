@@ -454,5 +454,12 @@
       "copy_code_success": "Code copied successfully",
       "print_gift_card": "Print"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "general": {
+        "cart": "CART - By Proceeding To Checkout I Confirm That I Am Over 18"
+      }
+    }
   }
 }
