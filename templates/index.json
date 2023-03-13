@@ -501,6 +501,59 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1636444f-0a3c-456a-83f8-0365c9c29b67": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16171362451655__1636444f-0a3c-456a-83f8-0365c9c29b67-1678722588a30c0dcf-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "New for 2023",
+            "heading_size": "h2"
+          }
+        },
+        "471b35e8-4019-4818-b805-926a30b655ea": {
+          "type": "caption",
+          "settings": {
+            "caption": "Add a touch of class to your event.",
+            "text_style": "subtitle",
+            "text_size": "large"
+          }
+        },
+        "template--16171362451655__1636444f-0a3c-456a-83f8-0365c9c29b67-1678722588a30c0dcf-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>These premium European wax torches are a great addition to any outdoor evening event.<\/p><p>65cm long with a burn time of 125 to 135 minutes.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16171362451655__1636444f-0a3c-456a-83f8-0365c9c29b67-1678722588a30c0dcf-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find out more",
+            "button_link": "shopify:\/\/products\/wax-torch-with-disc-65cm-125-135-minutes"
+          }
+        }
+      },
+      "block_order": [
+        "template--16171362451655__1636444f-0a3c-456a-83f8-0365c9c29b67-1678722588a30c0dcf-0",
+        "471b35e8-4019-4818-b805-926a30b655ea",
+        "template--16171362451655__1636444f-0a3c-456a-83f8-0365c9c29b67-1678722588a30c0dcf-1",
+        "template--16171362451655__1636444f-0a3c-456a-83f8-0365c9c29b67-1678722588a30c0dcf-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Wax_torch_with_disc_2408px.jpg",
+        "height": "medium",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -512,6 +565,7 @@
     "4d1ceb0b-4536-47b9-819c-4634123c769f",
     "a4464ace-8395-4d8a-910d-540cd8ef97c3",
     "fd637a7e-474f-49ab-a96b-a4eb201f4fca",
-    "e3fbeb3c-1903-497b-892c-6ad670ad3447"
+    "e3fbeb3c-1903-497b-892c-6ad670ad3447",
+    "1636444f-0a3c-456a-83f8-0365c9c29b67"
   ]
 }
