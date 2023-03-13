@@ -261,7 +261,7 @@
       }
     },
     "cart": {
-      "title": "Your cart",
+      "title": "Your Cart - By Proceeding To Checkout I Confirm That I Am Over 18.",
       "caption": "Cart items",
       "remove_title": "Remove {{ title }}",
       "subtotal": "Subtotal",
