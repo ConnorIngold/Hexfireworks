@@ -544,12 +544,13 @@
       "settings": {
         "caption": "",
         "heading": "Collection and Delivery Information",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
+        "image": "shopify:\/\/shop_images\/Delivery_Van_only_08d0ac24-667d-4661-914b-d832e0182420.png",
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,
@@ -558,6 +559,7 @@
     },
     "e7719d23-0625-4cc9-9a4f-828a74d4b391": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "template--16171362451655__e7719d23-0625-4cc9-9a4f-828a74d4b391-167872353163557323-0": {
           "type": "featured_collection",
@@ -605,6 +607,7 @@
     },
     "c0dd4575-8150-4dd6-9d1d-0afd12c20aaa": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "template--16171362451655__c0dd4575-8150-4dd6-9d1d-0afd12c20aaa-167872353163557323-0": {
           "type": "featured_collection",
@@ -638,6 +641,7 @@
     },
     "86165c61-91e8-46f0-9f3e-4ffdf004d29c": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "template--16171362451655__86165c61-91e8-46f0-9f3e-4ffdf004d29c-167872353163557323-1": {
           "type": "featured_collection",
@@ -678,6 +682,7 @@
     },
     "62b94d8b-2f7a-454f-b2ee-f0535963d776": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "template--16171362451655__62b94d8b-2f7a-454f-b2ee-f0535963d776-167872353163557323-0": {
           "type": "featured_collection",
@@ -725,6 +730,7 @@
     },
     "ec1cfa3c-e4fa-488f-b509-70470f35e9b3": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "template--16171362451655__ec1cfa3c-e4fa-488f-b509-70470f35e9b3-167872353163557323-0": {
           "type": "featured_collection",
