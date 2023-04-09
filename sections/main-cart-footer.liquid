@@ -3,6 +3,35 @@
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
 
+<style>
+.grid-item{
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px;
+  text-align: right;
+}
+.grid-item textarea{
+  border: 1px solid #dedede;
+  background-color: rgba(133, 133, 133, 0.1);
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px;
+}
+
+.cart-attribute__field input{
+  border: 1px solid #dedede;
+  background-color: rgba(133, 133, 133, 0.1);
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  margin: 0 0 20px;
+  min-height: 40px;
+  padding: 10px;
+}
+</style>
+
 <div class="page-width{% if cart == empty %} is-empty{% endif %}" id="main-cart-footer" data-id="{{ section.id }}">
   <div>
     <div class="cart__footer">
@@ -18,6 +47,7 @@
           >{{ cart.note }}</textarea>
         </cart-note>
       {%- endif -%}
+
 
       <div class="cart__blocks">
         {% for block in section.blocks %}
@@ -45,6 +75,16 @@
                   {%- endif -%}
                 </div>
 
+                <div class="grid-item">
+                  <label for="cartSpecialInstructions"><strong>NOTES:</strong> Please enter any HEXtra delivery instructions or messages to pass on to Team HEX</label>
+                  <textarea name="note" class="input-full" id="cartSpecialInstructions"></textarea>
+                </div>
+
+                <p class="cart-attribute__field">
+                  <label for="please-enter-your-proposed-display-date-below">Please enter your proposed <strong>DISPLAY DATE</strong> below</label>
+                  <input required class="required" id="please-enter-your-proposed-display-date-below" type="date" name="attributes[Please add your proposed DISPLAY DATE below]" value="{{ cart.attributes["Please add your proposed DISPLAY DATE below"] }}">
+                </p>
+
                 <small class="tax-note caption-large rte">
                   {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
                     {{ 'sections.cart.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
@@ -60,7 +100,7 @@
             {%- else -%}
               <div class="cart__ctas" {{ block.shopify_attributes }}>
                 <noscript>
-                  <button type="submit" class="cart__update-button button button--secondary" form="cart">
+                  <button type="submit" class="cart__update-button button button--secondary" form="car  t">
                     {{ 'sections.cart.update' | t }}
                   </button>
                 </noscript>
@@ -89,6 +129,8 @@
 
         <div id="cart-errors"></div>
       </div>
+
+
     </div>
   </div>
 </div>
