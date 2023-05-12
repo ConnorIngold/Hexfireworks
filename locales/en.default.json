@@ -459,6 +459,13 @@
     "checkout": {
       "general": {
         "cart": "CART - By Proceeding To Checkout I Confirm That I Am Over 18"
+      },
+      "shipping_errors": {
+        "shipping_method_not_available": "Your cart has been updated. The items you have in it can't be shipped to your address as your firework order is under £150 in value. Please increase your firework order or remove them from the cart.",
+        "shipping_method_not_available_generic": {
+          "one": "This order can't be shipped to your location. Note: Minimum order value for FREE TeamHEX delivery of fireworks is £30 within 17 miles of MK44 3ET. Minimum order value for our £30 national delivery service is £150.",
+          "other": "Some items in your cart don't ship to your location as your firework order is under £150 in value. Please increase your firework order value or remove it from the cart."
+        }
       }
     }
   }
