@@ -1016,6 +1016,8 @@ a.product__text {
 
 .product__media-list .media > * {
 	overflow: hidden;
+	object-fit: contain;
+	max-height: 500px;
 }
 
 .thumbnail-list {
@@ -1401,7 +1403,7 @@ a.product__text {
 }
 
 .product-media-container.constrain-height .media {
-	padding-top: min(var(--constrained-height), var(--ratio-percent));
+	padding-top: 100%;
 	height: 100%;
 }
 
