@@ -3010,6 +3010,7 @@ details-disclosure > details {
 
 .card__media,
 .card__media .media--transparent,
+.article-card__image .media,
 .card__inner {
 	background: none !important;
 }
