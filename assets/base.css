@@ -2830,10 +2830,10 @@ details-disclosure > details {
 
 @media (max-width: 720px) {
 	.ratio::before {
-		content: '';
-		width: 0;
-		height: 0;
 		padding-bottom: 150%;
+	}
+	.card.article-card .ratio::before {
+		padding-bottom: 80%;
 	}
 }
 
