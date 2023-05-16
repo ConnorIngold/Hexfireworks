@@ -3,6 +3,10 @@
   margin-bottom: 0;
 }
 
+.collection-list .media > img{
+  padding-bottom: 60px;
+}
+
 .collection-list-title {
   margin: 0;
 }
