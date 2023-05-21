@@ -21,7 +21,7 @@
 	height: 100%;
 	width: 100%;
 	aspect-ratio: 16/9;
-	max-height: 300px;
+	/* max-height: 300px; */
 }
 
 .deferred-media {
