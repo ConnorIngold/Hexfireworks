@@ -1450,3 +1450,12 @@ a.product__text {
 	display: block;
 	position: relative;
 }
+
+.product__media-list.contains-media div > modal-opener.product__modal-opener > div.media {
+	padding-top: 57%;
+}
+
+.icon-play {
+	top: 50%;
+	left: 50%;
+}
