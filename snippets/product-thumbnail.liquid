@@ -53,8 +53,16 @@
   class="product-media-container media-type-{{ media.media_type }} media-fit-{{ media_fit }} global-media-settings gradient{% if constrain_to_viewport %} constrain-height{% endif %}"
   style="--ratio: {{ media.aspect_ratio | default: 1.0 }}; --preview-ratio: {{ media.preview_image.aspect_ratio | default: 1.0 }};"
 >
+{%- if media.host == 'youtube' -%}
+<iframe src="https://www.youtube.com/embed/{{ media.external_id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="
+aspect-ratio: 16  / 9;
+width: 100%;
+height: 100%;
+"></iframe>
+{%- endif -%}
+
   <noscript>
-    {%- if media.media_type == 'video' or media.media_type == 'external_video' -%}
+    {% comment %} {%- if media.media_type == 'video' or media.media_type == 'external_video' -%}
       <span class="product__media-icon motion-reduce quick-add-hidden">{% render 'icon-play' %}</span>
       <div class="product__media media">
         {{ media.preview_image | image_url: width: 1946 | image_tag:
@@ -74,7 +82,7 @@
           widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
         }}
       </div>
-    {%- endif -%}
+    {%- endif -%} {% endcomment %}
   </noscript>
 
   <modal-opener class="product__modal-opener product__modal-opener--{{ media.media_type }} no-js-hidden" data-modal="#ProductModal-{{ modal_id }}">
@@ -112,10 +120,8 @@
   {%- if media.media_type != 'image' -%}
     {%- if media.media_type == 'model' -%}
       <product-model class="deferred-media media media--transparent no-js-hidden" data-media-id="{{ media.id }}">
-    {%- else -%}
-      <deferred-media class="deferred-media media media--transparent no-js-hidden" data-media-id="{{ media.id }}">
     {%- endif -%}
-    <button id="Deferred-Poster-Modal-{{ media.id }}" class="deferred-media__poster" type="button">
+    {% comment %} <button id="Deferred-Poster-Modal-{{ media.id }}" class="deferred-media__poster" type="button">
       <span class="deferred-media__poster-button motion-reduce">
         {%- if media.media_type == 'model' -%}
           <span class="visually-hidden">{{ 'products.product.media.play_model' | t }}</span>
@@ -130,8 +136,9 @@
         sizes: sizes,
         widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
       }}
-    </button>
-    <template>
+    </button> {% endcomment %}
+
+    {% comment %} <template>
       {%- liquid
         case media.media_type
         when 'external_video'
@@ -147,7 +154,7 @@
           echo media | media_tag: image_size: "2048x", toggleable: true
         endcase
       -%}
-    </template>
+    </template> {% endcomment %}
 
     {%- if media.media_type == 'model' -%}
       </product-model>
