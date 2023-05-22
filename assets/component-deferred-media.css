@@ -93,5 +93,9 @@
 }
 
 ul.product__media-list > li:first-child .product-media-container div.media {
-	padding-top: 100%;
+	padding-top: 0px;
+}
+
+ul.product__media-list > li:first-child .product-media-container div.media img {
+	position: relative;
 }
