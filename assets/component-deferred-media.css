@@ -91,3 +91,7 @@
 .deferred-media__poster-button .icon-play {
 	margin-left: 0.2rem;
 }
+
+ul.product__media-list > li:first-child .media {
+	padding-top: 100%;
+}
