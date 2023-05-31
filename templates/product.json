@@ -50,6 +50,7 @@
         },
         "b556910e-188a-4d99-b672-914ad9dbb283": {
           "type": "complementary",
+          "disabled": true,
           "settings": {
             "block_heading": "Pairs well with",
             "make_collapsible_row": false,
