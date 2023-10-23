@@ -58,3 +58,7 @@
     display: block;
   }
 }
+
+.rating-star:before{
+  -webkit-text-fill-color: #eed94e;
+}

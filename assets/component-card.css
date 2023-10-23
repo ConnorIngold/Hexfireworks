@@ -79,6 +79,9 @@
 
 .card-information {
 	text-align: var(--text-alignment);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .card__media,
@@ -360,3 +363,8 @@
 .card-article-info {
 	margin-top: 1rem;
 }
+/* 
+.card-information .price__sale{
+	display: flex;
+	flex-direction: column;
+} */
