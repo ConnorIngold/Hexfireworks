@@ -14,10 +14,9 @@
         },
         "footer-1": {
           "type": "link_list",
-          "disabled": true,
           "settings": {
             "heading": "Info",
-            "menu": "footer"
+            "menu": ""
           }
         },
         "footer-2": {
@@ -26,12 +25,20 @@
             "heading": "Our mission",
             "subtext": "<p>Customer service is at the heart of all we do at HEX Fireworks. Our HEXperts select the best fireworks and support you in making your choices with in depth product knowledge. Our aim is to deal with our customers as we would like to be dealt with. We love going that HEXtra mile, sharing our passion for fireworks with you.<\/p>"
           }
+        },
+        "824653ec-d747-4156-af98-7b64e64e475e": {
+          "type": "text",
+          "settings": {
+            "heading": "Contact Us",
+            "subtext": "<p>Tel: 07513 911572<\/p><p>Email: whoosh@hexfireworks.co.uk<\/p>"
+          }
         }
       },
       "block_order": [
         "footer-0",
         "footer-1",
-        "footer-2"
+        "footer-2",
+        "824653ec-d747-4156-af98-7b64e64e475e"
       ],
       "settings": {
         "color_scheme": "background-1",
