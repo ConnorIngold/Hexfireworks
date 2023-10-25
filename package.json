@@ -1,0 +1,13 @@
+{
+    "name": "shopify-starter-theme-2.0",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "dev": "shopify theme dev -s acrystal"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ConnorIngold/Hexfireworks.git"
+    }
+  }
+  

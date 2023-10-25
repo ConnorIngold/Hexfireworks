@@ -58,3 +58,11 @@
     display: block;
   }
 }
+
+.rating-star:before, i.stamped-fa-star{
+  -webkit-text-fill-color: #CC0100;
+  color: #CC0100;
+}
+.stamped-summary-ratings .summary-rating-bar-content{
+  background: #CC0100;
+}
