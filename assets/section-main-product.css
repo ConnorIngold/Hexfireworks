@@ -825,6 +825,7 @@ a.product__text {
 
 	.product-media-modal__content > * {
 		width: 100%;
+        max-height: 750px;
 	}
 
 	.product-media-modal__content > * + * {
