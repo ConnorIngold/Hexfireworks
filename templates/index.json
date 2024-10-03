@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner": {
@@ -21,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -53,14 +62,14 @@
         "template--16171362451655__db142881-2c12-463d-899c-6b69dcaa87f3-1678652031a09ee0ca-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Are you like us ...just a bit FIREWORK CRAZY?!<\/p>",
+            "heading": "<p>Are you like us ...just a bit FIREWORK CRAZY?!</p>",
             "heading_size": "h2"
           }
         },
         "template--16171362451655__db142881-2c12-463d-899c-6b69dcaa87f3-1678652031a09ee0ca-1": {
           "type": "text",
           "settings": {
-            "text": "<p>If you love fireworks too, then we are the <strong>online fireworks shop<\/strong> for you. <\/p><p>We don't operate a physical shop but we can handle cash transactions if you prefer.<\/p>"
+            "text": "<p>If you love fireworks too, then we are the <strong>online fireworks shop</strong> for you. </p><p>We don't operate a physical shop but we can handle cash transactions if you prefer.</p>"
           }
         },
         "template--16171362451655__db142881-2c12-463d-899c-6b69dcaa87f3-1678652031a09ee0ca-2": {
@@ -154,7 +163,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-new-photos-8621927.jpg",
+        "image": "shopify://shop_images/pexels-new-photos-8621927.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -295,7 +304,7 @@
       "settings": {
         "title": "Ignite Firing Systems - Remote Wireless Firing Controller",
         "heading_size": "h1",
-        "description": "<p>IGNITE is a reusable wireless fireworks firing system designed to shoot fireworks from your phone or tablet. Using the IGNITE App you can control up to six i18 modules for a total of 108 cues. <\/p><p><\/p><p>For more information and videos visit our 'How To' Library <a href=\"https:\/\/www.hexfireworks.co.uk\/pages\/ignite-firing-systems\" title=\"How To - Use the Ignite Firing System\">How To - Use the Ignite Firing Systems.<\/a><\/p><p>They have a <a href=\"https:\/\/www.facebook.com\/groups\/869329666952805\" target=\"_blank\" title=\"IGNITE Facebook group\">Facebook Group<\/a> too where users and the team share ideas.<\/p><p><strong>** Call us on 07513 911572 for special carrier rates **<\/strong><\/p>",
+        "description": "<p>IGNITE is a reusable wireless fireworks firing system designed to shoot fireworks from your phone or tablet. Using the IGNITE App you can control up to six i18 modules for a total of 108 cues. </p><p></p><p>For more information and videos visit our 'How To' Library <a href=\"https://www.hexfireworks.co.uk/pages/ignite-firing-systems\" title=\"How To - Use the Ignite Firing System\">How To - Use the Ignite Firing Systems.</a></p><p>They have a <a href=\"https://www.facebook.com/groups/869329666952805\" target=\"_blank\" title=\"IGNITE Facebook group\">Facebook Group</a> too where users and the team share ideas.</p><p><strong>** Call us on 07513 911572 for special carrier rates **</strong></p>",
         "show_description": false,
         "description_style": "body",
         "collection": "ignite-firing-systems",
@@ -338,7 +347,7 @@
         "template--16171362451655__1636444f-0a3c-456a-83f8-0365c9c29b67-1678722588a30c0dcf-1": {
           "type": "text",
           "settings": {
-            "text": "<p>These premium European wax torches are a great addition to any outdoor evening event.<\/p><p>65cm long with a burn time of 125 to 135 minutes.<\/p>",
+            "text": "<p>These premium European wax torches are a great addition to any outdoor evening event.</p><p>65cm long with a burn time of 125 to 135 minutes.</p>",
             "text_style": "body"
           }
         },
@@ -346,7 +355,7 @@
           "type": "button",
           "settings": {
             "button_label": "Find out more",
-            "button_link": "shopify:\/\/products\/wax-torch-with-disc-65cm-125-135-minutes"
+            "button_link": "shopify://products/wax-torch-with-disc-65cm-125-135-minutes"
           }
         }
       },
@@ -357,7 +366,7 @@
         "template--16171362451655__1636444f-0a3c-456a-83f8-0365c9c29b67-1678722588a30c0dcf-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Wax_torch_with_disc_2408px.jpg",
+        "image": "shopify://shop_images/Wax_torch_with_disc_2408px.jpg",
         "height": "medium",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -383,7 +392,7 @@
         "template--16171362451655__a4464ace-8395-4d8a-910d-540cd8ef97c3-1678651364195391da-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Let us come and fire your fireworks for you. <\/p><ul><li>Fully qualified technician <\/li><li>Full risk assessment<\/li><li>Insurance.<\/li><li>Help selecting fireworks<\/li><li>You celebrate, stress free.<\/li><\/ul>",
+            "text": "<p>Let us come and fire your fireworks for you. </p><ul><li>Fully qualified technician </li><li>Full risk assessment</li><li>Insurance.</li><li>Help selecting fireworks</li><li>You celebrate, stress free.</li></ul>",
             "text_style": "body"
           }
         },
@@ -391,7 +400,7 @@
           "type": "button",
           "settings": {
             "button_label": "Find out more",
-            "button_link": "shopify:\/\/products\/professional-firework-display-pyrotechnician-electronic-firing"
+            "button_link": "shopify://products/professional-firework-display-pyrotechnician-electronic-firing"
           }
         }
       },
@@ -400,8 +409,9 @@
         "template--16171362451655__a4464ace-8395-4d8a-910d-540cd8ef97c3-1678651364195391da-1",
         "template--16171362451655__a4464ace-8395-4d8a-910d-540cd8ef97c3-1678651364195391da-2"
       ],
+      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/wedding_photo2.webp",
+        "image": "shopify://shop_images/wedding_photo2.webp",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -470,7 +480,7 @@
           "settings": {
             "heading": "Local delivery in time for Bonfire Night 2023:",
             "icon": "none",
-            "row_content": "<p>Firework orders must be placed by midnight Thursday 2nd November. Last delivery day Friday 3rd November.<\/p><p><\/p><p><\/p>",
+            "row_content": "<p>Firework orders must be placed by midnight Thursday 2nd November. Last delivery day Friday 3rd November.</p><p></p><p></p>",
             "page": ""
           }
         },
@@ -480,7 +490,7 @@
           "settings": {
             "heading": "Nationwide delivery in time for Bonfire Night 2023:",
             "icon": "none",
-            "row_content": "<p>Firework orders must be placed by midnight Sunday 29th October 2023. <\/p>",
+            "row_content": "<p>Firework orders must be placed by midnight Sunday 29th October 2023. </p>",
             "page": ""
           }
         },
@@ -490,7 +500,7 @@
           "settings": {
             "heading": "Local delivery in time for New Year's Eve 2023:",
             "icon": "none",
-            "row_content": "<p>Firework orders must be placed by midnight Thursday 28th December. Last delivery day Friday 29th December 2023.<\/p>",
+            "row_content": "<p>Firework orders must be placed by midnight Thursday 28th December. Last delivery day Friday 29th December 2023.</p>",
             "page": ""
           }
         },
@@ -500,7 +510,7 @@
           "settings": {
             "heading": "Nationwide delivery in time for New Year's Eve 2023:",
             "icon": "none",
-            "row_content": "<p>Firework orders must be placed by midnight Sunday 17th December 2023.<\/p>",
+            "row_content": "<p>Firework orders must be placed by midnight Sunday 17th December 2023.</p>",
             "page": ""
           }
         },
@@ -509,7 +519,7 @@
           "settings": {
             "heading": "Collection and Delivery Options",
             "icon": "none",
-            "row_content": "<p><strong>HEX <\/strong>Fireworks provide several pick up and delivery options. We operate a Click and Collect service from our HEX HQ and also local delivery, as well as national delivery services.<\/p>",
+            "row_content": "<p><strong>HEX </strong>Fireworks provide several pick up and delivery options. We operate a Click and Collect service from our HEX HQ and also local delivery, as well as national delivery services.</p>",
             "page": "pick-up-delivery-options"
           }
         },
@@ -518,7 +528,7 @@
           "settings": {
             "heading": "Click and Collect Information",
             "icon": "none",
-            "row_content": "<p>Orders can be placed online and collected from our facility at High Barns Farm.<\/p><p><\/p><p><\/p>",
+            "row_content": "<p>Orders can be placed online and collected from our facility at High Barns Farm.</p><p></p><p></p>",
             "page": "click-and-collect-service"
           }
         },
@@ -550,7 +560,7 @@
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
-        "image": "shopify:\/\/shop_images\/Delivery_Van_only_08d0ac24-667d-4661-914b-d832e0182420.png",
+        "image": "shopify://shop_images/Delivery_Van_only_08d0ac24-667d-4661-914b-d832e0182420.png",
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,
