@@ -816,6 +816,7 @@
         "text_A4XJgL",
         "button_UFxcKk"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Vento_logo.png",
         "height": "small",
