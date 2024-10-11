@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -786,6 +786,50 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_aRLwQm": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7UQFg6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Do you need insurance?",
+            "heading_size": "h1"
+          }
+        },
+        "text_A4XJgL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get Insurance for your fireworks display <a href=\"https://d39mls04.eu1.hs-sales-engage.com/Ctc/DP+23284/d39mls04/Jl22-6qcW7lCdLW6lZ3nkW2rVwzH4tXxNbW1GbMM11jSN0pW1Hkgl_1wC94sW5BjNB51LT8mmW1FMBvz19cjyKW8pQFJt8-JGz1W2Qh62G4W_fdzW5GJ6VR4bSx7MW5Srnbl6kwsf8W1vLMdT7cM1VQW1dRgfL1g8d8nW4__FVl4zTj0KW6PKn3-3SdPGMN3G3ln23gLwVM989l7HmbCMW4pNBCG9g0_lJW7jnrxL1Mtx5rW7YhYdc5-FltkW580D_38M0pvPN1HbRGql1TP2W5XJYyS3-LT67W8fGCgv8whQR4W2wq5456Q12YkW98Zbj71NJMy_f47J1mY04\">here</a>. </p><p>Vento is a specialist events insurance company that can offer you insurance for your<br/>fireworks display.</p><p>These include Public Liability Insurance (third party injuries, deaths, or property<br/>damage), Employer's Liability Insurance (employee/volunteer injuries and<br/>deaths), and Event Cancellation (protect your event costs or revenue). </p><p>Vento allows you to get an <a href=\"https://d39mls04.eu1.hs-sales-engage.com/Ctc/DP+23284/d39mls04/Jl22-6qcW7lCdLW6lZ3nkW2rVwzH4tXxNbW1GbMM11jSN0pW1Hkgl_1wC94sW5BjNB51LT8mmW1FMBvz19cjyKW8pQFJt8-JGz1W2Qh62G4W_fdzW5GJ6VR4bSx7MW5Srnbl6kwsf8W1vLMdT7cM1VQW1dRgfL1g8d8nW4__FVl4zTj0KW6PKn3-3SdPGMN3G3ln23gLwVM989l7HmbCMW4pNBCG9g0_lJW7jnrxL1Mtx5rW7YhYdc5-FltkW580D_38M0pvPN1HbRGql1TP2W5XJYyS3-LT67W8fGCgv8whQR4W2wq5456Q12YkW98Zbj71NJMy_f47J1mY04\">instant quote</a> & cover and is backed by A-rated insurers. You will just need to<br/>adhere to their Fireworks Conditions Endorsement, which comes in your quote.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_UFxcKk": {
+          "type": "button",
+          "settings": {
+            "button_label": "Go to Vento",
+            "button_link": "https://app.ventoinsurance.com/get-covered?partner_site=fff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7UQFg6",
+        "text_A4XJgL",
+        "button_UFxcKk"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Vento_logo.png",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "b3467e5a-844e-4775-bafe-b49489361de3": {
       "type": "featured-blog",
       "settings": {
@@ -820,6 +864,7 @@
     "86165c61-91e8-46f0-9f3e-4ffdf004d29c",
     "62b94d8b-2f7a-454f-b2ee-f0535963d776",
     "ec1cfa3c-e4fa-488f-b509-70470f35e9b3",
+    "image_with_text_aRLwQm",
     "b3467e5a-844e-4775-bafe-b49489361de3"
   ]
 }
