@@ -184,16 +184,16 @@
             "collection": "ignite-firing-systems"
           }
         },
-        "template--16171362451655__e154db25-fb5e-4741-9a01-13aaae6a49ad-16786220979e0b47d6-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "quiet-fireworks"
-          }
-        },
         "template--16171362451655__e154db25-fb5e-4741-9a01-13aaae6a49ad-16786220979e0b47d6-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "party-perfect"
+          }
+        },
+        "template--16171362451655__e154db25-fb5e-4741-9a01-13aaae6a49ad-16786220979e0b47d6-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "quiet-fireworks"
           }
         },
         "9b38252d-8276-48fc-9654-594b339a2f1a": {
@@ -271,8 +271,8 @@
       },
       "block_order": [
         "template--16171362451655__e154db25-fb5e-4741-9a01-13aaae6a49ad-16786220979e0b47d6-0",
-        "template--16171362451655__e154db25-fb5e-4741-9a01-13aaae6a49ad-16786220979e0b47d6-1",
         "template--16171362451655__e154db25-fb5e-4741-9a01-13aaae6a49ad-16786220979e0b47d6-2",
+        "template--16171362451655__e154db25-fb5e-4741-9a01-13aaae6a49ad-16786220979e0b47d6-1",
         "9b38252d-8276-48fc-9654-594b339a2f1a",
         "2e386750-97bb-4707-bc9d-cf79c8924db0",
         "65e8b388-d911-4d2e-98ab-cf9ef16b9436",
