@@ -126,6 +126,33 @@
         "padding_bottom": 36
       }
     },
+    "featured_collection_pUpqMA": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "New Year's Eve Recommended",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "new-years-eve-collection",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "7e70ed1f-178f-4c8f-9856-a6df0a1479b1": {
       "type": "image-banner",
       "blocks": {
@@ -853,6 +880,7 @@
     "image_banner",
     "db142881-2c12-463d-899c-6b69dcaa87f3",
     "featured_collection",
+    "featured_collection_pUpqMA",
     "7e70ed1f-178f-4c8f-9856-a6df0a1479b1",
     "e154db25-fb5e-4741-9a01-13aaae6a49ad",
     "4d1ceb0b-4536-47b9-819c-4634123c769f",
