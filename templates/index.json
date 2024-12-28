@@ -359,16 +359,8 @@
         "template--16171362451655__1636444f-0a3c-456a-83f8-0365c9c29b67-1678722588a30c0dcf-0": {
           "type": "heading",
           "settings": {
-            "heading": "New for 2023",
+            "heading": "Add a Touch of Class to Your Event",
             "heading_size": "h1"
-          }
-        },
-        "471b35e8-4019-4818-b805-926a30b655ea": {
-          "type": "caption",
-          "settings": {
-            "caption": "Add a touch of class to your event.",
-            "text_style": "subtitle",
-            "text_size": "large"
           }
         },
         "template--16171362451655__1636444f-0a3c-456a-83f8-0365c9c29b67-1678722588a30c0dcf-1": {
@@ -388,7 +380,6 @@
       },
       "block_order": [
         "template--16171362451655__1636444f-0a3c-456a-83f8-0365c9c29b67-1678722588a30c0dcf-0",
-        "471b35e8-4019-4818-b805-926a30b655ea",
         "template--16171362451655__1636444f-0a3c-456a-83f8-0365c9c29b67-1678722588a30c0dcf-1",
         "template--16171362451655__1636444f-0a3c-456a-83f8-0365c9c29b67-1678722588a30c0dcf-2"
       ],
