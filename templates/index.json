@@ -146,7 +146,7 @@
           "type": "button",
           "settings": {
             "button_label": "Click and Collect",
-            "button_link": "https://www.hexfireworks.co.uk",
+            "button_link": "shopify://pages/click-and-collect-service",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
