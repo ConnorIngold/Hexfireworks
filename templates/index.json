@@ -159,6 +159,7 @@
         "text_rBc9wa",
         "button_PgQaMm"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -170,6 +171,7 @@
     },
     "featured_collection_pUpqMA": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "New Year's Eve Recommended",
         "heading_size": "h1",
