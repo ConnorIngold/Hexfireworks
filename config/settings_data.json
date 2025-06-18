@@ -1,6 +1,15 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Hex_Fireworks_-_Fireworks_and_Symbol_combined_-_Bevel_Social_Media_v2_92c4d77e-4a08-49a7-97b9-a0f7e8576ba3.png",
+    "logo": "shopify://shop_images/Hex_Fireworks_-_Fireworks_and_Symbol_combined_-_Bevel_Social_Media_v2_92c4d77e-4a08-49a7-97b9-a0f7e8576ba3.png",
     "logo_width": 150,
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#121212",
@@ -108,7 +117,7 @@
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
     "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_description": "<p></p>",
     "brand_image_width": 100,
     "social_facebook_link": "",
     "social_instagram_link": "",
@@ -144,19 +153,17 @@
         "type": "challenge25",
         "settings": {
           "popup_title": "Are you over the age of 25?",
-          "popup_message": "<strong>Challenge 25<\/strong> - it is <strong>illegal <\/strong>to sell fireworks to people under the age of 18. Using the checkout confirms that you are over 18 years of age and you agree to our <a href=\"\/policies\/terms-of-service\" target=\"_blank\" title=\"\/policies\/terms-of-service\">terms of service<\/a>.",
+          "popup_message": "<strong>Challenge 25</strong> - it is <strong>illegal </strong>to sell fireworks to people under the age of 18. Using the checkout confirms that you are over 18 years of age and you agree to our <a href=\"/policies/terms-of-service\" target=\"_blank\" title=\"/policies/terms-of-service\">terms of service</a>.",
           "yes_button_text": "Yes, I am",
           "no_button_text": "No, I'm not",
-          "no_button_link": "https:\/\/www.google.com\/"
+          "no_button_link": "https://www.google.com/"
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "1575957009345749421": {
-        "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/side-drawer\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "type": "shopify://apps/stamped-product-reviews-ugc/blocks/side-drawer/a103faaf-2125-4b0e-89fa-de5149736723",
         "disabled": false,
         "settings": {
           "show_avatar": true,
@@ -182,7 +189,7 @@
         }
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
           "button_color": "#ff0000",
@@ -194,10 +201,14 @@
         }
       },
       "12198985164985445843": {
-        "type": "shopify:\/\/apps\/nova-eu-cookie-bar-gdpr\/blocks\/app-embed\/6667ecbd-70cf-4527-84a9-e6037e6ca706",
+        "type": "shopify://apps/nova-eu-cookie-bar-gdpr/blocks/app-embed/6667ecbd-70cf-4527-84a9-e6037e6ca706",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
+      },
+      "1027443428159536739": {
+        "type": "shopify://apps/hextom-announce-bar/blocks/qab-embeded-block/9ac2a261-3b8b-42c8-9613-d34eb2e079d3",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
@@ -310,7 +321,7 @@
       "sold_out_badge_color_scheme": "inverse",
       "accent_icons": "text",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",
