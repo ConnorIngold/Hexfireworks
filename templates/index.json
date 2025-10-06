@@ -246,102 +246,6 @@
         "show_text_below": false
       }
     },
-    "e3fbeb3c-1903-497b-892c-6ad670ad3447": {
-      "type": "collapsible-content",
-      "blocks": {
-        "template--16163877945543__e3fbeb3c-1903-497b-892c-6ad670ad3447-16766751578a4a39bf-0": {
-          "type": "collapsible_row",
-          "disabled": true,
-          "settings": {
-            "heading": "Local delivery in time for Bonfire Night 2023:",
-            "icon": "none",
-            "row_content": "<p>Firework orders must be placed by midnight Thursday 2nd November. Last delivery day Friday 3rd November.</p><p></p><p></p>",
-            "page": ""
-          }
-        },
-        "template--16163877945543__e3fbeb3c-1903-497b-892c-6ad670ad3447-16766751578a4a39bf-1": {
-          "type": "collapsible_row",
-          "disabled": true,
-          "settings": {
-            "heading": "Nationwide delivery in time for Bonfire Night 2023:",
-            "icon": "none",
-            "row_content": "<p>Firework orders must be placed by midnight Sunday 29th October 2023. </p>",
-            "page": ""
-          }
-        },
-        "template--16163877945543__e3fbeb3c-1903-497b-892c-6ad670ad3447-16766751578a4a39bf-2": {
-          "type": "collapsible_row",
-          "disabled": true,
-          "settings": {
-            "heading": "Local delivery in time for New Year's Eve 2023:",
-            "icon": "none",
-            "row_content": "<p>Firework orders must be placed by midnight Thursday 28th December. Last delivery day Friday 29th December 2023.</p>",
-            "page": ""
-          }
-        },
-        "template--16163877945543__e3fbeb3c-1903-497b-892c-6ad670ad3447-16766751578a4a39bf-3": {
-          "type": "collapsible_row",
-          "disabled": true,
-          "settings": {
-            "heading": "Nationwide delivery in time for New Year's Eve 2023:",
-            "icon": "none",
-            "row_content": "<p>Firework orders must be placed by midnight Sunday 17th December 2023.</p>",
-            "page": ""
-          }
-        },
-        "45ef9a7c-d81d-4222-bc83-a1cb9f20792a": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collection and Delivery Options",
-            "icon": "none",
-            "row_content": "<p><strong>HEX </strong>Fireworks provide several pick up and delivery options. We operate a Click and Collect service from our HEX HQ and also local delivery, as well as national delivery services.</p>",
-            "page": "pick-up-delivery-options"
-          }
-        },
-        "3ccf4825-af42-4d99-831c-5372801d34c3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Click and Collect Information",
-            "icon": "none",
-            "row_content": "<p>Orders can be placed online and collected from our facility at High Barns Farm.</p><p></p><p></p>",
-            "page": "click-and-collect-service"
-          }
-        },
-        "17938b86-81e5-4d65-9a66-2add67d2c196": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Delivery Information",
-            "icon": "none",
-            "row_content": "",
-            "page": "delivery-information"
-          }
-        }
-      },
-      "block_order": [
-        "template--16163877945543__e3fbeb3c-1903-497b-892c-6ad670ad3447-16766751578a4a39bf-0",
-        "template--16163877945543__e3fbeb3c-1903-497b-892c-6ad670ad3447-16766751578a4a39bf-1",
-        "template--16163877945543__e3fbeb3c-1903-497b-892c-6ad670ad3447-16766751578a4a39bf-2",
-        "template--16163877945543__e3fbeb3c-1903-497b-892c-6ad670ad3447-16766751578a4a39bf-3",
-        "45ef9a7c-d81d-4222-bc83-a1cb9f20792a",
-        "3ccf4825-af42-4d99-831c-5372801d34c3",
-        "17938b86-81e5-4d65-9a66-2add67d2c196"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Collection and Delivery Information",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
-        "image": "shopify://shop_images/Delivery_Van_only_08d0ac24-667d-4661-914b-d832e0182420.png",
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "e154db25-fb5e-4741-9a01-13aaae6a49ad": {
       "type": "collection-list",
       "blocks": {
@@ -489,6 +393,102 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e3fbeb3c-1903-497b-892c-6ad670ad3447": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16163877945543__e3fbeb3c-1903-497b-892c-6ad670ad3447-16766751578a4a39bf-0": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Local delivery in time for Bonfire Night 2023:",
+            "icon": "none",
+            "row_content": "<p>Firework orders must be placed by midnight Thursday 2nd November. Last delivery day Friday 3rd November.</p><p></p><p></p>",
+            "page": ""
+          }
+        },
+        "template--16163877945543__e3fbeb3c-1903-497b-892c-6ad670ad3447-16766751578a4a39bf-1": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Nationwide delivery in time for Bonfire Night 2023:",
+            "icon": "none",
+            "row_content": "<p>Firework orders must be placed by midnight Sunday 29th October 2023. </p>",
+            "page": ""
+          }
+        },
+        "template--16163877945543__e3fbeb3c-1903-497b-892c-6ad670ad3447-16766751578a4a39bf-2": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Local delivery in time for New Year's Eve 2023:",
+            "icon": "none",
+            "row_content": "<p>Firework orders must be placed by midnight Thursday 28th December. Last delivery day Friday 29th December 2023.</p>",
+            "page": ""
+          }
+        },
+        "template--16163877945543__e3fbeb3c-1903-497b-892c-6ad670ad3447-16766751578a4a39bf-3": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Nationwide delivery in time for New Year's Eve 2023:",
+            "icon": "none",
+            "row_content": "<p>Firework orders must be placed by midnight Sunday 17th December 2023.</p>",
+            "page": ""
+          }
+        },
+        "45ef9a7c-d81d-4222-bc83-a1cb9f20792a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collection and Delivery Options",
+            "icon": "none",
+            "row_content": "<p><strong>HEX </strong>Fireworks provide several pick up and delivery options. We operate a Click and Collect service from our HEX HQ and also local delivery, as well as national delivery services.</p>",
+            "page": "pick-up-delivery-options"
+          }
+        },
+        "3ccf4825-af42-4d99-831c-5372801d34c3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Click and Collect Information",
+            "icon": "none",
+            "row_content": "<p>Orders can be placed online and collected from our facility at High Barns Farm.</p><p></p><p></p>",
+            "page": "click-and-collect-service"
+          }
+        },
+        "17938b86-81e5-4d65-9a66-2add67d2c196": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Delivery Information",
+            "icon": "none",
+            "row_content": "",
+            "page": "delivery-information"
+          }
+        }
+      },
+      "block_order": [
+        "template--16163877945543__e3fbeb3c-1903-497b-892c-6ad670ad3447-16766751578a4a39bf-0",
+        "template--16163877945543__e3fbeb3c-1903-497b-892c-6ad670ad3447-16766751578a4a39bf-1",
+        "template--16163877945543__e3fbeb3c-1903-497b-892c-6ad670ad3447-16766751578a4a39bf-2",
+        "template--16163877945543__e3fbeb3c-1903-497b-892c-6ad670ad3447-16766751578a4a39bf-3",
+        "45ef9a7c-d81d-4222-bc83-a1cb9f20792a",
+        "3ccf4825-af42-4d99-831c-5372801d34c3",
+        "17938b86-81e5-4d65-9a66-2add67d2c196"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collection and Delivery Information",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image": "shopify://shop_images/Delivery_Van_only_08d0ac24-667d-4661-914b-d832e0182420.png",
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -871,9 +871,9 @@
     "rich_text_XeJkcC",
     "featured_collection_pUpqMA",
     "7e70ed1f-178f-4c8f-9856-a6df0a1479b1",
-    "e3fbeb3c-1903-497b-892c-6ad670ad3447",
     "e154db25-fb5e-4741-9a01-13aaae6a49ad",
     "4d1ceb0b-4536-47b9-819c-4634123c769f",
+    "e3fbeb3c-1903-497b-892c-6ad670ad3447",
     "1636444f-0a3c-456a-83f8-0365c9c29b67",
     "a4464ace-8395-4d8a-910d-540cd8ef97c3",
     "e7719d23-0625-4cc9-9a4f-828a74d4b391",
