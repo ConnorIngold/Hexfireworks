@@ -370,33 +370,6 @@
         "padding_bottom": 36
       }
     },
-    "4d1ceb0b-4536-47b9-819c-4634123c769f": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Ignite Firing Systems - Remote Wireless Firing Controller",
-        "heading_size": "h1",
-        "description": "<p>IGNITE is a reusable wireless fireworks firing system designed to shoot fireworks from your phone or tablet. Using the IGNITE App you can control up to six i18 modules for a total of 108 cues. </p><p></p><p>For more information and videos visit our 'How To' Library <a href=\"https://www.hexfireworks.co.uk/pages/ignite-firing-systems\" title=\"How To - Use the Ignite Firing System\">How To - Use the Ignite Firing Systems.</a></p><p>They have a <a href=\"https://www.facebook.com/groups/869329666952805\" target=\"_blank\" title=\"IGNITE Facebook group\">Facebook Group</a> too where users and the team share ideas.</p><p><strong>** Call us on 07513 911572 for special carrier rates **</strong></p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "ignite-firing-systems",
-        "products_to_show": 15,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "e3fbeb3c-1903-497b-892c-6ad670ad3447": {
       "type": "collapsible-content",
       "blocks": {
@@ -489,6 +462,33 @@
         "image": "shopify://shop_images/Delivery_Van_only_08d0ac24-667d-4661-914b-d832e0182420.png",
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4d1ceb0b-4536-47b9-819c-4634123c769f": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Ignite Firing Systems - Remote Wireless Firing Controller",
+        "heading_size": "h1",
+        "description": "<p>IGNITE is a reusable wireless fireworks firing system designed to shoot fireworks from your phone or tablet. Using the IGNITE App you can control up to six i18 modules for a total of 108 cues. </p><p></p><p>For more information and videos visit our 'How To' Library <a href=\"https://www.hexfireworks.co.uk/pages/ignite-firing-systems\" title=\"How To - Use the Ignite Firing System\">How To - Use the Ignite Firing Systems.</a></p><p>They have a <a href=\"https://www.facebook.com/groups/869329666952805\" target=\"_blank\" title=\"IGNITE Facebook group\">Facebook Group</a> too where users and the team share ideas.</p><p><strong>** Call us on 07513 911572 for special carrier rates **</strong></p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "ignite-firing-systems",
+        "products_to_show": 15,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -872,8 +872,8 @@
     "featured_collection_pUpqMA",
     "7e70ed1f-178f-4c8f-9856-a6df0a1479b1",
     "e154db25-fb5e-4741-9a01-13aaae6a49ad",
-    "4d1ceb0b-4536-47b9-819c-4634123c769f",
     "e3fbeb3c-1903-497b-892c-6ad670ad3447",
+    "4d1ceb0b-4536-47b9-819c-4634123c769f",
     "1636444f-0a3c-456a-83f8-0365c9c29b67",
     "a4464ace-8395-4d8a-910d-540cd8ef97c3",
     "e7719d23-0625-4cc9-9a4f-828a74d4b391",
