@@ -14,7 +14,7 @@
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#121212",
     "gradient_accent_1": "",
-    "colors_accent_2": "#334fb4",
+    "colors_accent_2": "#cc0000",
     "gradient_accent_2": "",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
@@ -202,11 +202,6 @@
       },
       "12198985164985445843": {
         "type": "shopify://apps/nova-eu-cookie-bar-gdpr/blocks/app-embed/6667ecbd-70cf-4527-84a9-e6037e6ca706",
-        "disabled": false,
-        "settings": {}
-      },
-      "1027443428159536739": {
-        "type": "shopify://apps/hextom-announce-bar/blocks/qab-embeded-block/9ac2a261-3b8b-42c8-9613-d34eb2e079d3",
         "disabled": false,
         "settings": {}
       }
