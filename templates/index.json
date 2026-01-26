@@ -171,6 +171,7 @@
     },
     "featured_collection_pUpqMA": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "New Year's Eve Recommended",
         "heading_size": "h1",
