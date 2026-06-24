@@ -59,6 +59,17 @@
     "db142881-2c12-463d-899c-6b69dcaa87f3": {
       "type": "rich-text",
       "blocks": {
+        "button_DUBCyp": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "https://www.fireworkawards.uk",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
         "template--16171362451655__db142881-2c12-463d-899c-6b69dcaa87f3-1678652031a09ee0ca-0": {
           "type": "heading",
           "settings": {
@@ -85,6 +96,7 @@
         }
       },
       "block_order": [
+        "button_DUBCyp",
         "template--16171362451655__db142881-2c12-463d-899c-6b69dcaa87f3-1678652031a09ee0ca-0",
         "template--16171362451655__db142881-2c12-463d-899c-6b69dcaa87f3-1678652031a09ee0ca-1",
         "template--16171362451655__db142881-2c12-463d-899c-6b69dcaa87f3-1678652031a09ee0ca-2"
