@@ -9,6 +9,51 @@
  */
 {
   "sections": {
+    "image_with_text_MiMNCe": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_QnUwiB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Are you like us ...just a bit FIREWORK CRAZY?!",
+            "heading_size": "h2"
+          }
+        },
+        "text_3PGgc4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you love fireworks too, then we are the online fireworks shop for you. We don't operate a physical shop but we can handle cash transactions if you prefer.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_dMtRAQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Fireworks Awards UK 2026",
+            "button_link": "https://www.fireworksawards.uk"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QnUwiB",
+        "text_3PGgc4",
+        "button_dMtRAQ"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Firework_Awards_Sponsor_logo_2026.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -794,52 +839,6 @@
         "show_date": true,
         "show_author": false,
         "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_MiMNCe": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_QnUwiB": {
-          "type": "heading",
-          "settings": {
-            "heading": "Are you like us ...just a bit FIREWORK CRAZY?!",
-            "heading_size": "h2"
-          }
-        },
-        "text_3PGgc4": {
-          "type": "text",
-          "settings": {
-            "text": "<p>If you love fireworks too, then we are the online fireworks shop for you. We don't operate a physical shop but we can handle cash transactions if you prefer.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_dMtRAQ": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_QnUwiB",
-        "text_3PGgc4",
-        "button_dMtRAQ"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/Firework_Awards_Sponsor_logo_2026.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
