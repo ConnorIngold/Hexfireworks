@@ -14,6 +14,18 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_EeMYXE": {
+          "type": "announcement",
+          "settings": {
+            "bg_color": "#000000",
+            "text_color": "#FFFFFF",
+            "text": "Firework Awards UK",
+            "text2": "SPONSOR",
+            "img": "shopify://shop_images/Firework_Awards_Sponsor_logo_2026.jpg",
+            "text_alignment": "center",
+            "link": "https://www.fireworkawards.uk"
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
@@ -28,6 +40,7 @@
         }
       },
       "block_order": [
+        "announcement_EeMYXE",
         "announcement-bar-0"
       ],
       "settings": {}
