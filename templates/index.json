@@ -56,60 +56,6 @@
         "show_text_below": false
       }
     },
-    "db142881-2c12-463d-899c-6b69dcaa87f3": {
-      "type": "rich-text",
-      "blocks": {
-        "button_DUBCyp": {
-          "type": "button",
-          "settings": {
-            "button_label": "www.fireworkawards.uk",
-            "button_link": "https://www.fireworkawards.uk",
-            "button_style_secondary": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "template--16171362451655__db142881-2c12-463d-899c-6b69dcaa87f3-1678652031a09ee0ca-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Are you like us ...just a bit FIREWORK CRAZY?!</p>",
-            "heading_size": "h2"
-          }
-        },
-        "template--16171362451655__db142881-2c12-463d-899c-6b69dcaa87f3-1678652031a09ee0ca-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>If you love fireworks too, then we are the <strong>online fireworks shop</strong> for you. </p><p>We don't operate a physical shop but we can handle cash transactions if you prefer.</p>"
-          }
-        },
-        "template--16171362451655__db142881-2c12-463d-899c-6b69dcaa87f3-1678652031a09ee0ca-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "button_DUBCyp",
-        "template--16171362451655__db142881-2c12-463d-899c-6b69dcaa87f3-1678652031a09ee0ca-0",
-        "template--16171362451655__db142881-2c12-463d-899c-6b69dcaa87f3-1678652031a09ee0ca-1",
-        "template--16171362451655__db142881-2c12-463d-899c-6b69dcaa87f3-1678652031a09ee0ca-2"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 12
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "disabled": true,
@@ -141,19 +87,6 @@
     "rich_text_XeJkcC": {
       "type": "rich-text",
       "blocks": {
-        "heading_VC7PTk": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Opening Hours for New Year's Eve</p>",
-            "heading_size": "h1"
-          }
-        },
-        "text_rBc9wa": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Saturday 28th - 9am - 5pm</p><p>Sunday 29th - 9am - 5pm</p><p>Monday 30th - 9am - 1pm</p><p>Tuesday 31st - 10am - 11:30am</p>"
-          }
-        },
         "button_PgQaMm": {
           "type": "button",
           "settings": {
@@ -167,11 +100,8 @@
         }
       },
       "block_order": [
-        "heading_VC7PTk",
-        "text_rBc9wa",
         "button_PgQaMm"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -878,7 +808,6 @@
   },
   "order": [
     "image_banner",
-    "db142881-2c12-463d-899c-6b69dcaa87f3",
     "featured_collection",
     "rich_text_XeJkcC",
     "featured_collection_pUpqMA",
