@@ -19,8 +19,8 @@
           "settings": {
             "bg_color": "#000000",
             "text_color": "#FFFFFF",
-            "text": "Firework Awards UK",
-            "text2": "SPONSOR",
+            "text": "Firework Awards UK SPONSOR",
+            "text2": "",
             "img": "shopify://shop_images/Firework_Awards_Sponsor_logo_2026.jpg",
             "text_alignment": "center",
             "link": "https://www.fireworkawards.uk"
