@@ -12,17 +12,10 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Are you like us ...just a bit FIREWORK CRAZY?!If you love fireworks too, then we are the online fireworks shop for you. We don't operate a physical shop but we can handle cash transactions if you prefer.",
             "text_style": "body"
           }
         },
@@ -39,7 +32,6 @@
         }
       },
       "block_order": [
-        "heading",
         "text",
         "button"
       ],
@@ -103,7 +95,6 @@
       "block_order": [
         "button_PgQaMm"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -176,6 +167,7 @@
         "template--16171362451655__7e70ed1f-178f-4c8f-9856-a6df0a1479b1-1678707337e4453dec-1",
         "template--16171362451655__7e70ed1f-178f-4c8f-9856-a6df0a1479b1-1678707337e4453dec-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/pexels-new-photos-8621927.jpg",
         "image_overlay_opacity": 0,
