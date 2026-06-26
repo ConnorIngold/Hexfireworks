@@ -41,7 +41,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Firework_Awards_Sponsor_logo_2026.jpg",
+        "image": "shopify://shop_images/Firework_Awards_Sponsor_logo_2026_-_resized.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
