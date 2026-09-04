@@ -96,12 +96,12 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Bestsellers",
+        "title": "HEXExpress - Bestsellers",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>See what's popular on the HEX Fireworks website.</p>",
         "show_description": true,
         "description_style": "body",
-        "collection": "coming-soon",
+        "collection": "hexpack-display-builder-kits",
         "products_to_show": 6,
         "columns_desktop": 4,
         "full_width": false,
