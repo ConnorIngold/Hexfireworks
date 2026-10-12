@@ -80,27 +80,37 @@
                   <textarea name="note" class="input-full" id="cartSpecialInstructions"></textarea>
                 </div>
 
-                <p class="cart-attribute__field">
-                  <label for="please-enter-your-proposed-display-date-below">Please enter your proposed <strong>DISPLAY DATE</strong> below</label>
-                  <input required class="required" id="please-enter-your-proposed-display-date-below" type="date" name="attributes[Please add your proposed DISPLAY DATE below]" value="{{ cart.attributes["Please add your proposed DISPLAY DATE below"] }}">
-                </p>
+                  <p class="cart-attribute__field">
+  <label for="please-enter-your-proposed-display-date-below">
+    Please enter your proposed <strong>DISPLAY DATE</strong> below
+  </label>
+  <input
+    required
+    class="required"
+    id="please-enter-your-proposed-display-date-below"
+    type="date"
+    name="attributes[Please add your proposed DISPLAY DATE below]"
+    form="cart"
+    value="{{ cart.attributes['Please add your proposed DISPLAY DATE below'] | escape }}"
+  >
+</p>
+ <small class="tax-note caption-large rte">
+ {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
+{{ 'sections.cart.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
+{%- elsif cart.taxes_included -%}
+{{ 'sections.cart.taxes_included_but_shipping_at_checkout' | t }}
+{%- elsif shop.shipping_policy.body != blank -%}
+{{ 'sections.cart.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}
+{%- else -%}
+{{ 'sections.cart.taxes_and_shipping_at_checkout' | t }}
+{%- endif -%}
+</small>
+</div>
+{%- else -%}
 
-                <small class="tax-note caption-large rte">
-                  {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
-                    {{ 'sections.cart.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                  {%- elsif cart.taxes_included -%}
-                    {{ 'sections.cart.taxes_included_but_shipping_at_checkout' | t }}
-                  {%- elsif shop.shipping_policy.body != blank -%}
-                    {{ 'sections.cart.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}
-                  {%- else -%}
-                    {{ 'sections.cart.taxes_and_shipping_at_checkout' | t }}
-                  {%- endif -%}
-                </small>
-              </div>
-            {%- else -%}
               <div class="cart__ctas" {{ block.shopify_attributes }}>
                 <noscript>
-                  <button type="submit" class="cart__update-button button button--secondary" form="car  t">
+                  <button type="submit" class="cart__update-button button button--secondary" form="cart">
                     {{ 'sections.cart.update' | t }}
                   </button>
                 </noscript>
