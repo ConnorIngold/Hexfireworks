@@ -134,7 +134,7 @@
     "currency_code_enabled": true,
     "cart_type": "notification",
     "show_vendor": false,
-    "show_cart_note": false,
+    "show_cart_note": true,
     "cart_drawer_collection": "",
     "sections": {
       "main-password-header": {
@@ -192,12 +192,12 @@
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
+          "greeting_message": "👋  Hello! Thanks for getting in touch with Team HEX. How can we help?",
           "button_color": "#ff0000",
           "button_icon": "chat_bubble",
           "button_text": "chat_with_us",
           "button_horizontal_position": "bottom_right",
-          "button_vertical_position": "lowest",
-          "greeting_message": "👋  Hello! Thanks for getting in touch with Team HEX. How can we help?"
+          "button_vertical_position": "lowest"
         }
       },
       "12198985164985445843": {
