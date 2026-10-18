@@ -789,38 +789,6 @@
     },
     "1792330457b4ad51b7": {
       "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_f70930e_BeLzfN": {
-          "type": "ai_gen_block_f70930e",
-          "settings": {
-            "heading": "Our timeline",
-            "desktop_width_percent": 100,
-            "background_color": "#ffffff",
-            "text_color": "#121212",
-            "line_color": "#767676",
-            "highlight_color": "#cc0000",
-            "event_1_date": "Step one",
-            "event_1_title": "First milestone",
-            "event_1_text": "<p>Add details about this milestone.</p>",
-            "event_2_date": "Step two",
-            "event_2_title": "Second milestone",
-            "event_2_text": "<p>Add details about this milestone.</p>",
-            "event_3_date": "Step three",
-            "event_3_title": "Third milestone",
-            "event_3_text": "<p>Add details about this milestone.</p>",
-            "event_4_date": "Step four",
-            "event_4_title": "Fourth milestone",
-            "event_4_text": "<p>Add details about this milestone.</p>",
-            "event_5_date": "Step five",
-            "event_5_title": "Fifth milestone",
-            "event_5_text": "<p>Add details about this milestone.</p>"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_f70930e_BeLzfN"
-      ],
       "settings": {}
     }
   },
