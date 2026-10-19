@@ -282,12 +282,6 @@
             "collection": "ignite-firing-systems"
           }
         },
-        "template--16171362451655__e7719d23-0625-4cc9-9a4f-828a74d4b391-167872353163557323-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "party-perfect"
-          }
-        },
         "featured_collection_QGCUig": {
           "type": "featured_collection",
           "settings": {
@@ -315,7 +309,6 @@
       },
       "block_order": [
         "template--16171362451655__e7719d23-0625-4cc9-9a4f-828a74d4b391-167872353163557323-0",
-        "template--16171362451655__e7719d23-0625-4cc9-9a4f-828a74d4b391-167872353163557323-2",
         "featured_collection_QGCUig",
         "featured_collection_KqcRed",
         "featured_collection_XM8mP9",
